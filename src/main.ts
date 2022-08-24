@@ -332,7 +332,7 @@ class SettingTab extends PluginSettingTab {
 
         new Setting(containerEl)
             .setName("Media folder")
-            .setDesc("Folder to keep all downloaded media files. support path pattern, ${filename}, relative path start with ./")
+            .setDesc("Folder to keep all downloaded media files.")
             .addText((text) =>
                 text
                     .setValue(this.plugin.settings.mediaRootDirectory)
